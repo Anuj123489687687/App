@@ -29,3 +29,16 @@ const MoviesScreen = ({ navigation }) => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#111',
+  },
+  movieCard: {
+    backgroundColor: '#333',
+    margin: 15,
+    borderRadius: 8,
+    padding: 10,
+    alignItems: 'center',
+  },
+  
