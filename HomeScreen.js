@@ -33,4 +33,23 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
   },
-  
+  subtitle: {
+    color: '#ccc',
+    fontSize: 18,
+    marginTop: 10,
+    marginBottom: 20,
+    textAlign: 'center',
+  },
+  button: {
+    backgroundColor: '#FF4500',
+    padding: 15,
+    borderRadius: 30,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+});
+
+export default HomeScreen;
