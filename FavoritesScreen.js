@@ -41,3 +41,21 @@ const FavoritesScreen = () => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#111',
+    padding: 15,
+  },
+  title: {
+    color: '#fff',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  noFavorites: {
+    color: '#ccc',
+    fontSize: 18,
+    textAlign: 'center',
+  },
+  
