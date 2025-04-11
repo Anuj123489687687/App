@@ -58,4 +58,37 @@ const styles = StyleSheet.create({
     fontSize: 18,
     textAlign: 'center',
   },
-  
+  movieCard: {
+    backgroundColor: '#333',
+    marginBottom: 15,
+    borderRadius: 8,
+    padding: 10,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  poster: {
+    width: 100,
+    height: 150,
+    borderRadius: 8,
+    marginRight: 15,
+  },
+  movieTitle: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+    flex: 1,
+  },
+  removeButton: {
+    backgroundColor: '#FF4500',
+    paddingVertical: 5,
+    paddingHorizontal: 15,
+    borderRadius: 5,
+  },
+  removeButtonText: {
+    color: '#fff',
+    fontSize: 14,
+  },
+});
+
+export default FavoritesScreen;
+
