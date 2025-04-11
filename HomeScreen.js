@@ -15,3 +15,22 @@ const HomeScreen = () => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  overlay: {
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    padding: 20,
+    borderRadius: 10,
+    width: '80%',
+    alignItems: 'center',
+  },
+  title: {
+    color: '#fff',
+    fontSize: 32,
+    fontWeight: 'bold',
+  },
+  
