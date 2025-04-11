@@ -24,3 +24,15 @@ const MovieDetailScreen = ({ route }) => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#111',
+    padding: 20,
+  },
+  poster: {
+    width: '100%',
+    height: 250,
+    borderRadius: 8,
+  },
+  
