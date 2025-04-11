@@ -35,4 +35,23 @@ const styles = StyleSheet.create({
     height: 250,
     borderRadius: 8,
   },
-  
+  title: {
+    color: '#fff',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginVertical: 10,
+  },
+  description: {
+    color: '#ccc',
+    fontSize: 16,
+    marginVertical: 10,
+  },
+  details: {
+    color: '#bbb',
+    fontSize: 14,
+    marginVertical: 5,
+  },
+});
+
+export default MovieDetailScreen;
+
