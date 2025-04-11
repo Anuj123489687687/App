@@ -67,4 +67,23 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginBottom: 5,
   },
-  
+  input: {
+    backgroundColor: '#333',
+    color: '#fff',
+    padding: 10,
+    borderRadius: 8,
+  },
+  saveButton: {
+    backgroundColor: '#FF4500',
+    paddingVertical: 10,
+    borderRadius: 30,
+    alignItems: 'center',
+  },
+  saveButtonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+});
+
+export default ProfileScreen;
