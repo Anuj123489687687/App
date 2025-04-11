@@ -41,4 +41,23 @@ const styles = StyleSheet.create({
     padding: 10,
     alignItems: 'center',
   },
-  
+  poster: {
+    width: 120,
+    height: 180,
+    borderRadius: 8,
+    marginBottom: 10,
+  },
+  movieTitle: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  movieDescription: {
+    color: '#ccc',
+    fontSize: 14,
+    textAlign: 'center',
+  },
+});
+
+export default MoviesScreen;
+
