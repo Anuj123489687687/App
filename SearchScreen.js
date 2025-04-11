@@ -37,6 +37,33 @@ const SearchScreen = () => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#111',
+    padding: 10,
+  },
+  searchInput: {
+    backgroundColor: '#333',
+    color: '#fff',
+    padding: 15,
+    borderRadius: 8,
+    marginBottom: 10,
+  },
+  movieCard: {
+    backgroundColor: '#333',
+    margin: 10,
+    padding: 10,
+    borderRadius: 8,
+  },
+  movieTitle: {
+    color: '#fff',
+    fontSize: 18,
+  },
+});
+
+export default SearchScreen;
+
 
 
 
